@@ -7,6 +7,7 @@
     "format": "prettier --write",
     "format:all": "prettier --write 'src/**/*.js'",
     "lint": "eslint 'src/**/*.js'",
+    "babel": "babel 'src/**/*.js' -d transpiled/",
     "build": "webpack --config webpack.prod.js",
     "dev": "webpack-dev-server --open --config webpack.dev.js"
   },
