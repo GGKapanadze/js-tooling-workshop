@@ -63,7 +63,7 @@
 
 #### Installation: `npm i --save-dev eslint`
 
-#### Init command: `/node_modules/eslint --init`
+#### Init command: `/node_modules/.bin/eslint --init`
 
 ### NPM Script:
 
